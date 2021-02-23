@@ -34,6 +34,8 @@
 }
 
 body {
+    background: url("https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg");
+    background-attachment: fixed;
     background-color: #eaeaea;
     margin: 0;
     color: #34495e;
@@ -554,8 +556,8 @@ header .go-back i {
 }
 
 .bg-cover:after {
-    -webkit-animation: rainbow 60s infinite;
-    animation: rainbow 60s infinite;
+    -webkit-animation: rainbow 30s infinite;
+    animation: rainbow 30s infinite;
 }
 
 .bg-cover:before,
