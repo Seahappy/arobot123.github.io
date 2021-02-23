@@ -34,7 +34,6 @@
 }
 
 body {
-    background: url("https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg");
     background-attachment: fixed;
     background-color: #eaeaea;
     margin: 0;
@@ -246,7 +245,8 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #bf30ac 0%, #0f9d58 100%);
+    opacity: 0.9
 }
 
 .text-color {
@@ -555,10 +555,10 @@ header .go-back i {
     height: 40vh !important;
 }
 
-.bg-cover:after {
+/*.bg-cover:after {
     -webkit-animation: rainbow 30s infinite;
     animation: rainbow 30s infinite;
-}
+}*/
 
 .bg-cover:before,
 .bg-cover:after {
